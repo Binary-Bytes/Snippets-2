@@ -1,0 +1,29 @@
+{
+    "name": "snippets-2",
+    "displayName": "Snippets 2",
+    "description": "Some Snippets For Visual Studio Code To Make It Easier And Faster To Code",
+    "version": "1.0.0",
+    "publisher": "Binary Bytes",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "html",
+                "path": "./snippets/html.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/js.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css.code-snippets"
+            }
+        ]
+    }
+}
